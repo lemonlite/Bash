@@ -1,3 +1,3 @@
-# ConfigBashscripts-Arch-
-some autmated scripts for personal Arch linux build
+# Bash
+automated scripts for personal linux builds
 **work in progress
