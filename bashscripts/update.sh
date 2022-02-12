@@ -1,6 +1,13 @@
 #!/bin/bash
 
-echo "checking for updates"
+echo "=================="
+echo "LAUNCHING UPDATE"
+echo "==================" 
 
 sudo pacman -Syu --noconfirm
 
+echo "===================="
+echo "CHECKING AUR UPDATES"
+echo "===================="
+
+yay -Syu
