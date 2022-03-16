@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo " KDE MINIMAL INSTALLING "
+echo " Installing KDE minimal"
 
-source displaymanager.sh
-source displayserver.sh
-source nvidia.sh
-source initiate.sh
-source KDEminimal.sh
+sudo pacman -S --noconfirm plasma-desktop dolphin konsole konqueror powerdevil veracrypt bpytop neofetch ark gparted firewalld plasma-meta pulseaudio git latte-dock 
